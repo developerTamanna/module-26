@@ -1,0 +1,16 @@
+body{
+    border: 2px solid red;
+    margin: 2px;
+}
+section{
+    border: 2px solid green;
+    margin: 2px;
+}
+ol{
+    border: 2px solid purple;
+    margin: 2px;
+}
+li{
+    border: 2px solid blue;
+    margin: 2px;
+}
