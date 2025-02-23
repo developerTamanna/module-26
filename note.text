@@ -1,0 +1,56 @@
+✅ DOM Traversing: getElementById, getElementsByClassName, querySelectorAll
+✅ Dynamic Style Manipulation: setAttribute, innerText, innerHTML
+✅ CSS Class Add/Remove: classList.add(), classList.remove()
+✅ Create & Append Elements: createElement(), appendChild()
+✅ Node Traversing: parentNode, childNodes
+
+
+
+
+next
+
+Different ways to use addEventListener on a button..................
+
+//< --option 4: addEventListener-->
+
+//   *  document.getElementById()addEventListener('evenType', handler function)
+// 1: getElementById
+// 2: getElementById.addEventListener
+
+
+
+next
+
+
+কোন পদ্ধতি বেছে নিতে হবে?
+addEventListener হলো সেরা পদ্ধতি! 🎯
+
+ফ্লেক্সিবল: একাধিক ইভেন্ট হ্যান্ডলার যোগ করা যায়।
+কোড মডুলার: HTML এবং JavaScript আলাদা রাখা যায়।
+ডিনামিক: ইভেন্ট হ্যান্ডলার অফ বা পরিবর্তন করা যায়।
+বড় প্রোজেক্টে উপকারী: কোড ম্যানেজমেন্ট সহজ।
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>addEventListener Example</title>
+</head>
+<body>
+    <button id="btn">Click Me</button>
+
+    <script>
+        // ১. বাটন ইলিমেন্ট সিলেক্ট করা
+        const btn = document.getElementById('btn');
+
+        // ২. addEventListener দিয়ে ক্লিক ইভেন্ট যোগ করা
+        btn.addEventListener('click', function() {
+            alert('Button clicked!');
+        });
+    </script>
+</body>
+</html>
